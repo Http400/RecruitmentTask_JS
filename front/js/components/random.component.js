@@ -26,7 +26,7 @@ Random.prototype.init = function() {
             .catch(function(error) {
                 console.error(error);
             });
-    }, 2000);
+    }, 10000);
 };
 
 Random.prototype.render = function() {
